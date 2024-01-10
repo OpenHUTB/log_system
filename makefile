@@ -19,5 +19,5 @@ clean:
 
 .PHONY: backup
 backup:
-	rm -rf ../Backup/*
-	cp -r ./* ../Backup
+	cp -vr ./* ../LocalRepository
+
