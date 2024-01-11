@@ -1,12 +1,12 @@
 CC := g++
 TARGET := main
-OBJECT := main.cpp ./ThreadPool/ThreadPool.cpp
-HEAD := -I ./ThreadPool
+OBJECT := main.cpp ./ThreadPool/Thread.cpp
+HEADPATH := -I ./ThreadPool
 LIBNAME := -lpthread
 LIBPATH :=
 
 $(TARGET): $(OBJECT)
-	$(CC) $^ $(HEAD) $(LIBPATH) $(LIBNAME) -o $@ -std=c++11
+	$(CC) $^ $(HEADPATH) $(LIBPATH) $(LIBNAME) -o $@ -std=c++11
 	@echo "编译完成"
 	./$@
 	make clean
