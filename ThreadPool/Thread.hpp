@@ -30,7 +30,7 @@ namespace zwl
         void join();
         bool joinable();
 
-    private:
+    public:
         std::thread thread_;
         std::thread::id threadId_;
         ThreadFlag threadFlag_;

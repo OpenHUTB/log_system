@@ -11,8 +11,6 @@ $(TARGET): $(OBJECT)
 	./$@
 	make clean
 	@echo "已清除可执行文件"
-	make backup
-	@echo "备份完成"
 .PHONY: clean
 clean:
 	rm -v $(TARGET)
@@ -20,4 +18,5 @@ clean:
 .PHONY: backup
 backup:
 	cp -vr ./* ../LocalRepository
+	@echo "备份完成"
 

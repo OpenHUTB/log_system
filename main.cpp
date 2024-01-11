@@ -8,12 +8,12 @@ void testFunc(zwl::Thread::ThreadSharedPtr sp)
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 }
-
 int main()
 {
     using namespace zwl;
     Thread::ThreadSharedPtr sp(new Thread(std::bind(testFunc, std::placeholders::_1)));
     sp->start();
     std::this_thread::sleep_for(std::chrono::seconds(6));
+
     return 0;
 }
