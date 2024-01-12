@@ -9,13 +9,13 @@ namespace zwl
     {
     public:
         using ThreadSharedPtr = std::shared_ptr<Thread>;
-        using ThreadFunc = std::function<void(ThreadSharedPtr)>;
+        using ThreadFuncType = std::function<void(ThreadSharedPtr)>;
         enum class ThreadFlag
         {
             RESERVED,
             DYNAMIC
         };
-        explicit Thread(ThreadFunc threadFunc, ThreadFlag = ThreadFlag::RESERVED);
+        explicit Thread(ThreadFuncType threadFunc, ThreadFlag = ThreadFlag::RESERVED);
         ~Thread() = default;
         void start();
         inline std::thread::id getThreadId()
@@ -30,10 +30,10 @@ namespace zwl
         void join();
         bool joinable();
 
-    public:
+    private:
         std::thread thread_;
         std::thread::id threadId_;
         ThreadFlag threadFlag_;
-        ThreadFunc threadFunc_;
+        ThreadFuncType threadFunc_;
     };
 }

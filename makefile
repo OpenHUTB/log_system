@@ -1,6 +1,6 @@
 CC := g++
 TARGET := main
-OBJECT := main.cpp ./ThreadPool/Thread.cpp
+OBJECT := main.cpp ./ThreadPool/Thread.cpp ./ThreadPool/ThreadPool.cpp
 HEADPATH := -I ./ThreadPool
 LIBNAME := -lpthread
 LIBPATH :=

@@ -1,7 +1,7 @@
 #include "Thread.hpp"
 namespace zwl
 {
-    Thread::Thread(ThreadFunc threadFunc, ThreadFlag threadFlag)
+    Thread::Thread(ThreadFuncType threadFunc, ThreadFlag threadFlag)
         : threadId_(0), threadFlag_(threadFlag), threadFunc_(std::move(threadFunc))
     {
     }
@@ -10,7 +10,10 @@ namespace zwl
         thread_ = std::thread([this]() -> void
                               { 
                                 this->threadId_ = std::this_thread::get_id();
+                                //测试代码
+                                //std::cout << "t1 = " << this->threadId_ << std::endl;
                                 this->threadFunc_(this->shared_from_this()); });
+        //std::cout << "t2 = " << std::this_thread::get_id() << std::endl;
         detach();
     }
     // 示例 需要用智能指针构造Thread对象，因为多次实验发现this->shared_from_this()函数底层会用对象指针来构造sharedptr，构造sharedptr需要堆区指针，如果只是使用局部对象Thread t(std::bind(testFunc, std::placeholders::_1)，在t.start()函数执行时会报错bad_weak_ptr，就是系统用局部对象的栈区指针去构造sharedptr了，对象t是局部对象，地址是栈区的，用栈区指针构造sharedptr就报错
