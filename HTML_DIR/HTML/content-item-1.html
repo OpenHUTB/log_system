@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../CSS/content-item-1.css">
+    <script src="../JS/content-item-1.js"></script>
+</head>
+
+<body>
+    <div class="logprocess">
+        <div class="part1">
+            <div class="local">
+                <div class="item local-item local-item-btn">
+                    <button onclick="click_btn1()" class="default-btn active-btn" id="button1">选择本地主机文件</button>
+                </div>
+                <div class="item local-item local-item-input">
+                    <input type="file" id="fileInput">
+                </div>
+            </div>
+            <div class="remote">
+                <div class="item remote-item remote-item-btn">
+                    <button onclick="click_btn2()" class="default-btn" id="button2">选择远程主机文件</button>
+                </div>
+                <div class="item remote-item remote-item-input">
+                    <label for="fileName">文件名:</label>
+                    <input disabled="true" type="text" id="fileName" placeholder="请输入文件名">
+                </div>
+                <div class="item remote-item remote-item-input">
+                    <label for="ip">主机ip:</label>
+                    <input disabled="true" type="text" id="ip" placeholder="请输入主机IP">
+                </div>
+                <div class="item remote-item remote-item-input">
+                    <label for="port">主机port:</label>
+                    <input disabled="true" type="text" id="port" placeholder="请输入主机PORT">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="part2">
+            <button id = "upload-button"class="upload-button btn-able" onclick="uploadFile()">上传至云服务器</button>
+            <button id = "analysis-button"class="analysis-button btn-able">分析</button>
+        </div>
+    </div>
+</body>
+
+</html>
