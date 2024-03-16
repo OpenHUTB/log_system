@@ -1,0 +1,10 @@
+{
+    "hotTime": 60,
+    "serverIp": "192.168.2.150",
+    "serverPort": 9090,
+    "downloadPrefix": "/download/",
+    "packFileSuffix": ".lz",
+    "backDirPath": "./CloudBackup/BackDir/",
+    "packDirPath": "./CloudBackup/PackDir/",
+    "backupInfoFilePath": "./CloudBackup/backupInfoFile.json"
+}

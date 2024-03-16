@@ -1,0 +1,83 @@
+[
+	{
+		"backPath" : "./CloudBackup/BackDir/data_set.txt",
+		"fileSize" : 0,
+		"isPacked" : false,
+		"lastWriteTime" : 1705644948,
+		"lastWriteTimeStr" : "2024-01-19 14:15:48",
+		"packPath" : "./CloudBackup/PackDir/data_set.txt.lz",
+		"url" : "/download/data_set.txt"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/main.cpp",
+		"fileSize" : 1183,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644946,
+		"lastWriteTimeStr" : "2024-01-19 14:15:46",
+		"packPath" : "./CloudBackup/PackDir/main.cpp.lz",
+		"url" : "/download/main.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/testHotAndData.cpp",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644946,
+		"lastWriteTimeStr" : "2024-01-19 14:15:46",
+		"packPath" : "./CloudBackup/PackDir/testHotAndData.cpp.lz",
+		"url" : "/download/testHotAndData.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/makefile",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644706,
+		"lastWriteTimeStr" : "2024-01-19 14:11:46",
+		"packPath" : "./CloudBackup/PackDir/makefile.lz",
+		"url" : "/download/makefile"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/Utility.hpp",
+		"fileSize" : 2049,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644719,
+		"lastWriteTimeStr" : "2024-01-19 14:11:59",
+		"packPath" : "./CloudBackup/PackDir/Utility.hpp.lz",
+		"url" : "/download/Utility.hpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/README.md",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644947,
+		"lastWriteTimeStr" : "2024-01-19 14:15:47",
+		"packPath" : "./CloudBackup/PackDir/README.md.lz",
+		"url" : "/download/README.md"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/testFileUtility.cpp",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644947,
+		"lastWriteTimeStr" : "2024-01-19 14:15:47",
+		"packPath" : "./CloudBackup/PackDir/testFileUtility.cpp.lz",
+		"url" : "/download/testFileUtility.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/testThreadPool.cpp",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644946,
+		"lastWriteTimeStr" : "2024-01-19 14:15:46",
+		"packPath" : "./CloudBackup/PackDir/testThreadPool.cpp.lz",
+		"url" : "/download/testThreadPool.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/bundle.cpp",
+		"fileSize" : 196608,
+		"isPacked" : true,
+		"lastWriteTime" : 1705644741,
+		"lastWriteTimeStr" : "2024-01-19 14:12:21",
+		"packPath" : "./CloudBackup/PackDir/bundle.cpp.lz",
+		"url" : "/download/bundle.cpp"
+	}
+]

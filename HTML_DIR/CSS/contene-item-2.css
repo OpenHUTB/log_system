@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body,
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: inherit;
+    height: 15%;
+}
+
+.header .headerGroup {
+    width: inherit;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.headerGroup input,
+.headerGroup button {
+    height: 60%;
+    margin-left: 20px;
+    border: 1px rgb(220, 223, 230) solid;
+    border-radius: 4px;
+}
+
+.headerGroup input {
+    width: 12%;
+    font-size: large;
+}
+
+.headerGroup button {
+    width: 5%;
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+.headerGroup button:hover {
+    background-color: rgb(92, 130, 168);
+    border: 1px black solid;
+    font-size: large;
+}
+.main
+{
+    width: 100%;
+}

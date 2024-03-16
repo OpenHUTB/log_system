@@ -1,0 +1,11 @@
+[
+	{
+		"backPath" : "./CloudBackup/BackDir/001.json",
+		"fileSize" : 1795,
+		"isPacked" : true,
+		"lastWriteTime" : 1710527915,
+		"lastWriteTimeStr" : "2024-03-16 02:38:35",
+		"packPath" : "./CloudBackup/PackDir/001.json.lz",
+		"url" : "/download/001.json"
+	}
+]

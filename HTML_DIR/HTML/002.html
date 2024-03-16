@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* CSS样式用于设置导航栏的外观 */
+        .navbar {
+            background-color: #f1f1f1;
+            width: 200px;
+            height: 100vh;
+            /* 设置高度以填满整个屏幕 */
+            float: left;
+            /* 左浮动以使其位于左侧 */
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar li {
+            padding: 10px;
+            background-color: #ddd;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .navbar li:hover {
+            background-color: #aaa;
+        }
+
+        .content {
+            margin-left: 200px;
+            /* 将内容区域向右移动以适应导航栏的宽度 */
+            padding: 20px;
+            height: 100vh;
+            /* 设置高度以填满整个屏幕 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li onclick="showInfo()">信息</li>
+            <li onclick="showCourses()">课程</li>
+            <li>选项3</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div id="info" style="display: none;">这是我的信息。</div>
+        <div id="courses" style="display: none;">这是我的课程信息。</div>
+    </div>
+
+    <script>
+        function showInfo() {
+            document.getElementById("info").style.display = "block";
+            document.getElementById("courses").style.display = "none";
+        }
+
+        function showCourses() {
+            document.getElementById("info").style.display = "none";
+            document.getElementById("courses").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

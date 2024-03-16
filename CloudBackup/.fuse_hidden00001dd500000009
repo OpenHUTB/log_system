@@ -1,0 +1,65 @@
+[
+	{
+		"backPath" : "./CloudBackup/BackDir/main.cpp",
+		"fileSize" : 1180,
+		"isPacked" : true,
+		"lastWriteTime" : 1705642512,
+		"lastWriteTimeStr" : "2024-01-19 13:35:12",
+		"packPath" : "./CloudBackup/PackDir/main.cpp.lz",
+		"url" : "/download/main.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/makefile",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705642513,
+		"lastWriteTimeStr" : "2024-01-19 13:35:13",
+		"packPath" : "./CloudBackup/PackDir/makefile.lz",
+		"url" : "/download/makefile"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/testHotAndData.cpp",
+		"fileSize" : 1918,
+		"isPacked" : true,
+		"lastWriteTime" : 1705642511,
+		"lastWriteTimeStr" : "2024-01-19 13:35:11",
+		"packPath" : "./CloudBackup/PackDir/testHotAndData.cpp.lz",
+		"url" : "/download/testHotAndData.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/bundle.cpp",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705642540,
+		"lastWriteTimeStr" : "2024-01-19 13:35:40",
+		"packPath" : "./CloudBackup/PackDir/bundle.cpp.lz",
+		"url" : "/download/bundle.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/README.md",
+		"fileSize" : 0,
+		"isPacked" : true,
+		"lastWriteTime" : 1705642513,
+		"lastWriteTimeStr" : "2024-01-19 13:35:13",
+		"packPath" : "./CloudBackup/PackDir/README.md.lz",
+		"url" : "/download/README.md"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/testFileUtility.cpp",
+		"fileSize" : 1315,
+		"isPacked" : true,
+		"lastWriteTime" : 1705642512,
+		"lastWriteTimeStr" : "2024-01-19 13:35:12",
+		"packPath" : "./CloudBackup/PackDir/testFileUtility.cpp.lz",
+		"url" : "/download/testFileUtility.cpp"
+	},
+	{
+		"backPath" : "./CloudBackup/BackDir/testThreadPool.cpp",
+		"fileSize" : 3422,
+		"isPacked" : true,
+		"lastWriteTime" : 1705642511,
+		"lastWriteTimeStr" : "2024-01-19 13:35:11",
+		"packPath" : "./CloudBackup/PackDir/testThreadPool.cpp.lz",
+		"url" : "/download/testThreadPool.cpp"
+	}
+]
